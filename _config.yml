@@ -1,0 +1,42 @@
+# name is used for the logo image alt text, and in the footer copyright
+name: "PayPal Payment Form"
+title: Simple PayPal Payment form.
+description:  Simple PayPal Payment form.
+baseurl: /PayPalPaymentForm
+
+permalink: pretty
+exclude: ["Gemfile.lock","Gemfile","package.json","rakefile.rb","README.md","s3_website.yml","node_modules","gulpfile.js"]
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+ 
+
+canonical_domain: http://rdyar.github.io
+
+# image for logo, if you don't have one comment it out and use the logo_text below.
+#logo_url: 
+
+# if no logo, comment out above and enter the name and it will show instead
+# if the logo_url above is used this will not display
+logo_text: 
+
+# Main nav is for screens wider than 600px
+# Home link is hard coded by default
+main_nav:
+  - title: Notes
+    url: /notes/
+  
+# on screens smaller than 600px, what nav do you want to show?
+# Home is not set by default, the logo works as home link so it could be skipped.
+# mobile nav is shown as buttons, there is room for 3-5 depending on how long they are.
+mobile_nav:
+  
+
+# Expander footer - this has 3 sections, about, links and contact info.
+# if you don't need the expanded footer info change this to false.
+expanded_footer: false
+
+# shows link to strapless on GH
+show_footer_credit: true
